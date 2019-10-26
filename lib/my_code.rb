@@ -10,3 +10,4 @@ def reduce(array, starting_point = 0)
   else 
     array.reduce{|x,y| yield x,y}
   end
+end
